@@ -1,0 +1,81 @@
+/*----------------------------------*\
+  #LOGIN-USER
+\*----------------------------------*/
+
+.edit-user {
+   display: flex;
+   flex-direction: row;
+   gap: 6rem;
+   width: 100%;
+   letter-spacing: 0;
+   opacity: 1;
+}
+
+
+.edit-user__image-box {
+   display: flex;
+   flex-direction: column;
+   gap: 2.188rem;
+   width: 14%;
+}
+
+
+.edit-user__image-box img {
+   height: 15vh;
+   margin: 0 auto;
+   border-radius: 50%;
+   box-shadow: 0px 3px 6px #00000029
+}
+
+
+.edit-user__image-box .file-upload {
+   height: 2rem;
+   border: 1px solid #A5A5A5;
+   padding: 0.48rem 0;
+   border-radius: 5px;
+   width: 100%;
+   font: normal normal normal 0.875rem/1.188rem Roboto;   
+   text-align: center;
+   cursor: pointer;
+}
+
+
+.edit-user__image-box .file-upload:hover,
+.edit-user__image-box .file-upload:focus {
+   font-weight: bold;
+   border: 1px solid #96BB36;
+   background: #96BB36;
+   color: #FFFFFF;
+   box-shadow: 0px 3px 6px #00000029;
+}
+
+
+.container__input-box {
+   width: 55%;
+}
+
+
+.form__inputs {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 1rem 2rem;
+}
+
+
+.form__inputs input {
+   width: 100%;
+   margin-top: 0.6rem;
+}
+
+
+.last__two {
+   margin-top: 0.9rem;
+}
+
+
+.container__input-box #button {
+   width: 42.3%;
+   height: 40px;
+   box-shadow: 0px 3px 6px #00000029;
+   margin-top: 1.625rem;
+}

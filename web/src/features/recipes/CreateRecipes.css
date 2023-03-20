@@ -1,0 +1,152 @@
+/*----------------------------------*\
+  #RECIPE-CREATE-FORM COMPONENT
+\*----------------------------------*/
+
+.container {
+  gap: 5.63rem;
+}
+
+
+.create-recipe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2.25rem;
+  width: 100%;
+  text-align: left;
+  font: normal normal normal 0.875rem/1.186rem Roboto;
+}
+
+
+.create-recipe input,
+.create-recipe select,
+.create-recipe textarea {
+  margin-top: 10px;
+  width: 100%;
+  height: 4.83vh;
+  background: #f0efea 0% 0% no-repeat padding-box;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  text-align: left;
+  font: normal normal normal 0.875rem/1.188rem Roboto;
+  color: #a5a5a5;
+  resize: none;
+}
+
+
+.create-recipe select {
+  cursor: pointer;
+}
+
+
+.create-recipe__left-box {
+  width: 18%;
+}
+
+
+.create-recipe__left-box .file-upload {
+  display: block;
+  width: 100%;
+  height: 3.9vh;
+  padding: 0.4rem;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  text-align: center;
+  font: normal 0.875rem/1.186rem Roboto;
+  color: #a5a5a5;
+  cursor: pointer;
+}
+
+
+.create-recipe__left-box img,
+.create-recipe__left-box label,
+.create-recipe__left-box input {
+  width: 100%;
+}
+
+
+.create-recipe__left-box img {
+  display: block;
+  margin-top: 0.6rem;
+  margin-bottom: 1.1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 17.8vh;
+  border-radius: 5px;
+}
+
+
+.file-upload input {
+  display: none;
+}
+
+
+.create-recipe__middle-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.4rem;
+  width: 42%;
+}
+
+
+.create-recipe__middle-box--title {
+  width: 100%;
+}
+
+
+.create-recipe__middle-box--inner-middle {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1.688rem;
+}
+
+
+.create-recipe__middle-box--inner-middle .category {
+  display: block;
+  width: 32%;
+}
+
+
+.create-recipe__middle-box--inner-middle .category select {
+  padding-left: 0.75rem;
+}
+
+
+.preparation-time,
+.persons-number {
+  width: 26%;
+}
+
+
+.create-recipe__middle-box--short-description textarea {
+  width: 100%;
+  height: 11.6vh;
+  padding: 0.7rem 1rem;
+}
+
+
+.create-recipe__middle-box #button {
+  box-shadow: 0px 3px 6px #00000029;
+  width: 22%;
+  font: normal normal 900 1rem/1.313rem Roboto;
+  color: #ffffff;
+  background: #96bb36;
+}
+
+
+.create-recipe__right-box {
+  width: 28%;
+}
+
+
+.create-recipe__right-box textarea {
+  width: 100%;
+  height: 32.5vh;
+  padding: 0.7rem 1rem;
+  background: #f0efea 0% 0% no-repeat padding-box;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+}

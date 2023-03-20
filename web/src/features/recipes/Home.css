@@ -1,0 +1,146 @@
+/*----------------------------------*\
+  #HOME COMPONENT
+\*----------------------------------*/
+
+.container__recipes {
+   display: grid;
+   width: 100%;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 3.44rem 4rem;
+}
+
+
+
+
+/*----------------------------------*\
+  #RECIPE-BODY COMPONENT
+\*----------------------------------*/
+
+.recipe {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   box-shadow: 0px 10px 20px #00000012;
+   border: 1px solid #D8D8D8;
+   border-radius: 5px;
+}
+
+
+.recipe__image {
+   object-fit: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 28.3vh;
+}
+
+
+.recipe__description-box {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   gap: 1rem;
+   padding: 1.6rem;
+   background-color: #FFFFFF;
+}
+
+
+.recipe__description-box span {
+   text-transform: capitalize;
+}
+
+.recipe__description-box--title {
+   font: normal normal bold 1.3rem/1.6rem Roboto Slab;
+}
+
+
+.recipe__description-box--description {
+   font: normal normal normal 0.88rem/1.19rem Roboto;
+   color: #A5A5A5;
+   text-align: left;
+}
+
+
+.recipe__description-box--icons {
+   display: flex;
+   flex-direction: row;
+   gap: 0.81rem;
+}
+
+
+.recipe__description-box--icons div {
+   display: flex;
+   flex-direction: row;
+   gap: 0.31rem;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+
+.recipe__description-box--icons img {
+   height: 1.9vh;
+}
+
+
+.recipe__description-box--icons h3 {
+   font: normal normal bold 0.75rem/1rem Roboto Slab;
+   text-align: left;
+   color: #626262;
+}
+
+
+.recipe__description-box--icons .star-icon {
+   cursor: pointer;
+}
+
+
+.recipe__category {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   top: 1rem;
+   left: 1.5rem;
+   font: normal normal bold 1.13rem/1.5rem Roboto Slab;
+   color: white;
+   background-color: #96BB36;
+   width: 4.52vw;
+   height: 3.14vh;
+   border-radius: 15px;
+   padding: 4px;
+}
+
+
+.recipe__icon {
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   bottom: 1.2rem;
+   right: 2.3rem;
+   background-color: #96BB36;
+   width: 1.75rem;
+   height: 1.75rem;
+   border-radius: 5px;
+   padding: 0.5rem;
+   cursor: pointer;
+}
+
+
+
+
+
+/*----------------------------------*\
+  #VIEW-RECIPE COMPONENT
+\*----------------------------------*/
+
+.modal {
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 2;
+   width: 100%;
+   height: 100%;
+   background: rgba(248, 247, 242. 1);
+   backdrop-filter: blur(24px);
+}

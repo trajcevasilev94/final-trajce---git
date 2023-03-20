@@ -1,0 +1,201 @@
+/*----------------------------------*\
+  #ROOT
+\*----------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  letter-spacing: 0;
+  opacity: 1;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+/*----------------------------------*\
+  #HTML && #BODY
+\*----------------------------------*/
+
+html,
+body {
+  width: 100%;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f8f7f2;
+  color: #a5a5a5;
+  font-weight: bold;
+}
+
+
+#App {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  width: 70%;
+  margin: 0 auto;
+  min-height: 66.8vh;
+}
+
+
+#pages {
+  margin: 0 auto;
+  width: 70%;
+}
+
+
+
+
+
+/*----------------------------------*\
+  #BODY-CONTAINER
+\*----------------------------------*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4rem;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  margin-top: 2.7rem;
+  margin-bottom: 8.13rem;
+}
+
+
+.container__title-box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+
+.container__title-box--title {
+  display: inline-block;
+  font: normal normal bold 2.25rem/3rem Roboto Slab;
+  text-transform: capitalize;
+  color: #96bb36;
+  padding-right: 0.65rem;
+  background-color: #f8f7f2;
+  z-index: 1;
+}
+
+
+.container__title-box--line {
+  position: absolute;
+  top: 2.1rem;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 0;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+
+.container__button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-left: 0.625rem;
+  background-color: #f8f7f2;
+}
+
+
+.container__link {
+  width: 2.6rem;
+  height: 2.6rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #f0972a;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+
+.container__button img {
+  margin: auto 0;
+}
+
+
+
+
+
+/*----------------------------------*\
+  #BUTTON ELEMENT
+\*----------------------------------*/
+
+/**
+ * Extend `#button {}` in Navbar, LoginUser, CreateUser, EditUser component, CreateRecipe and EditRecipe ...
+ */
+
+#button {
+  background: none;
+  border: 1px solid #a5a5a5;
+  font: normal normal 900 1rem/1.31rem Roboto;
+  color: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.63rem 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#button:hover,
+#button:active,
+#button:focus {
+  border: 1px solid #96bb36;
+  background: #96bb36;
+  color: #ffffff;
+  box-shadow: 0 3px 6px #00000029;
+}
+
+
+
+
+
+/*----------------------------------*\
+  #SPAN ELEMENT
+\*----------------------------------*/
+
+span {
+  font: normal normal bold 1rem/1rem Roboto Slab;
+  color: #f0972a;
+}
+
+
+
+
+
+/*----------------------------------*\
+  #INPUT ELEMENT
+\*----------------------------------*/
+
+input {
+  display: block;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  padding: 0.6rem;
+  background-color: #f0efea;
+  text-align: left;
+  font: normal normal bold 0.875rem/1.188rem Roboto;
+  color: #a5a5a5;
+}

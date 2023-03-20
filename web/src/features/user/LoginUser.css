@@ -1,0 +1,58 @@
+/*----------------------------------*\
+  #LOGIN-USER
+\*----------------------------------*/
+
+.container__login-box {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+}
+
+
+.container__login-box--description {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 62%;
+   margin-right: 9rem;
+}
+
+
+.container__login-box--description span,
+.container__login-box--description h1 {
+   font: normal bold 2.875rem/3.75rem Roboto Slab;
+}
+
+
+.container__login-box--description h1 {
+   color: #626262;
+   margin-bottom: 1.81rem;
+}
+
+
+.container__login-box--description p {
+   word-break: break-all;
+   font: normal normal normal 1.25rem/1.63rem Roboto Slab;
+   color: #A5A5A5;
+}
+
+
+.container__login-box--inputs {
+   display: flex;
+   flex-direction: column;
+   gap: 1.44rem;
+   width: 38%;
+}
+
+
+.container__login-box--inputs input {
+   margin-top: 0.63rem;
+   width: 66%;
+}
+
+
+.container__login-box--inputs button {
+   width: 27%;
+   height: 40px;
+   margin-top: 1.19rem;
+}

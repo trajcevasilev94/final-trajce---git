@@ -1,0 +1,64 @@
+/*----------------------------------*\
+  #CREATE-USER
+\*----------------------------------*/
+
+.container__create-user {
+   display: flex;
+   flex-direction: row;
+   gap: 0.63rem;
+   width: 100%;
+}
+
+
+.container__create-user--description-box {
+   display: flex;
+   flex-direction: column;
+   gap: 1.81rem;
+   width: 39%;
+   padding-right: 6.375rem;
+}
+
+
+.container__create-user--description-box span,
+.container__create-user--description-box h1 {
+   font: normal normal bold 2.88rem/3.75rem Roboto Slab;
+}
+
+
+.container__create-user--description-box h1 {
+   color: #626262;
+}
+
+
+.container__create-user--description-box p {
+   word-break: break-all;
+   width: 100%;
+   font: normal normal normal 1.25rem/1.63rem Roboto Slab;
+   color: #A5A5A5;
+}
+
+
+.container__create-user--input-box {
+   width: 61%;
+}
+
+
+.create-user__inputs {
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 1.44rem 2.06rem;
+   width: 100%;
+}
+
+
+.create-user__inputs input {
+   margin-top: 0.63rem;
+   width: 76%;
+}
+
+
+.create-user__inputs--button {
+   padding: 0.63rem 0;
+   width: 52%;
+   margin-top: 1.19rem;
+}

@@ -1,0 +1,65 @@
+/*----------------------------------*\
+#MY-RECIPES EXCERPT COMPONENT
+\*----------------------------------*/
+
+.recipe-excerpt {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0  2.6rem 0 2rem;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   border-radius: 5px;
+   height: 7.1vh;
+   text-align: left;
+   font: normal normal bold 1rem/1.312rem Roboto;
+   color: #A5A5A5;
+   align-items: center;
+   cursor: pointer;
+}
+
+
+.recipe-excerpt__inner-left {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 0.5vw;
+   width: 50%;
+}
+
+
+.recipe-excerpt__inner-left--title {
+   width: 13vw;
+   text-align: left;
+}
+
+
+.recipe-excerpt__inner-left--category {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 4.4vw;
+   padding: 0.3rem;
+   text-align: center;
+   font: normal normal bold 0.75rem/1rem Roboto;
+   color: #FFFFFF;
+   text-transform: uppercase;
+   background: #96BB36;
+   border-radius: 5px;
+}
+
+
+.recipe-excerpt__inner-left--date {
+   font-weight: normal;
+   text-align: center;
+   text-align: right;
+   vertical-align: middle;
+   width: 13vw;
+}
+
+
+.recipe-excerpt__inner-right img {
+   width: 0.8vw;
+   max-height: 2.5vh;
+   cursor: pointer;
+}
